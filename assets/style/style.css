@@ -1,0 +1,567 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Bellefair&family=Outfit:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+section {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  /* left: 0px;
+  top: 0px; */
+  overflow: hidden;
+  background: url(../home/background-home-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  position: absolute;
+  /* width: 830px; */
+  height: 96px;
+  left: 55px;
+  top: 40px;
+}
+.logoImg {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 55px;
+  top: 64px;
+}
+.rectangle {
+  position: absolute;
+  width: 473px;
+  height: 1px;
+  left: 167px;
+  top: 88px;
+
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+#navbarNav {
+  position: absolute;
+  width: 776px;
+  height: 96px;
+  left: 610px;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+}
+#navbarNav ul {
+  padding-left: 45px;
+}
+li {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 4px;
+  padding: 30px;
+  font-family: "Barlow";
+}
+/* li> a:hover{
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  left: 854px;
+  top: 133px;
+  bottom: 0px;
+  
+  background: #FFFFFF;
+} */
+.text-div {
+  position: absolute;
+  width: 450px;
+  height: 382px;
+  left: 165px;
+  top: 387px;
+}
+
+.text-div h1 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 172px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text-div p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  color: #d0d6f9;
+}
+.explorer-div {
+  position: absolute;
+  width: 274px;
+  height: 274px;
+  left: 1001px;
+  top: 495px;
+}
+.inside-div {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 60%;
+  background: #ffffff;
+}
+.inside-div p {
+  position: absolute;
+  width: 137px;
+  height: 37px;
+  left: 19%;
+  right: 23.36%;
+  top: calc(50% - 37px / 2 + 0.5px);
+
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  color: #0b0d17;
+}
+.main-txt {
+  position: absolute;
+  margin-top: 45px;
+  width: 445px;
+  height: 472px;
+  left: 832px;
+  top: 310px;
+}
+.main-txt h1 {
+  /* position: relative; */
+  font-family: "Bellefair";
+  font-style: normal;
+
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 115px;
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.main-txt p {
+  /* position: relative; */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* display: flex; */
+  text-align: left;
+  /* or 178% */
+
+  color: #d0d6f9;
+}
+.section2 {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../destination/background-destination-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main {
+  margin-top: 45px;
+  margin-left: 190px;
+}
+.slider-div {
+  width: 900px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+.slider-tittle {
+  width: 700px;
+  height: 472px;
+}
+.marginleft {
+  margin-left: 145px;
+}
+.slider-tittle h2 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ffffff;
+}
+.slider-tittle p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+  margin: 45px 0 45px 0;
+}
+.rectangle2 {
+  width: 445px;
+  border: 1px solid #d0d6f9;
+}
+.down-text {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin: 45px 0 45px 0;
+}
+.p-style {
+  margin-left: 45px;
+}
+.section3 {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../crew/background-crew-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.slider-tittle h3 {
+  width: 614px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.slider-titte-h2 {
+  width: 444px;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* .carousel-indicators [data-bs-target]{
+  text-align: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+} */
+.section4 {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url(../technology/background-technology-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tech-img {
+  width: 515px;
+  height: 527px;
+}
+
+.tech-div {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#crewPageButton {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 50%;
+  transform: translate(-780px, -150px);
+  margin: 0px 0px 0px 25px;
+}
+#desPageButton {
+  gap: 5px;
+  transform: translate(-150px, -2788%);
+}
+#techButton {
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50%;
+  background: #ffffff !important;
+  border: 1px solid #d0d6f9;
+}
+.techButton {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  transform: translate(-191%, -82%);
+}
+.translateDiv {
+  transform: translate(15%, -2%);
+}
+.tech-tittle {
+  margin-left: 155px;
+}
+.tech-page {
+  float: right;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+    height: 1024px;
+    position: relative;
+    background: url(../home/background-home-tablet.jpg);
+  }
+  .rectangle {
+    display: none;
+  }
+  .text-div {
+    position: absolute;
+    width: 450px;
+    height: 334px;
+    left: 159px;
+    top: 202px;
+  }
+  .explorer-div {
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    left: 263px;
+    top: 692px;
+  }
+  .navbar {
+    width: 450px;
+    height: 96px;
+  }
+  .logoImg {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 39px;
+    top: 24px;
+  }
+  section {
+    background: none;
+  }
+  #navbarNav {
+    position: absolute;
+    width: 510px;
+    height: 96px;
+    left: 200px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+  }
+  #navbarNav ul {
+    padding-left: 10px;
+  }
+  li {
+    padding: 10px;
+  }
+  .section2 {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+    background: url(../destination/background-destination-tablet.jpg);
+  }
+  #carouselExampleIndicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    margin: 0;
+  }
+  .slider-div {
+    flex-direction: column;
+    width: 573px;
+  }
+  .slider-div img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 234px;
+    top: 120px;
+  }
+  .slider-tittle h2 {
+    position: absolute;
+    width: 266px;
+    height: 92px;
+    left: 251.5px;
+    top: 500px;
+    font-size: 80px;
+    line-height: 92px;
+  }
+  .marginleft {
+    margin-left: 0;
+  }
+  .slider-tittle p {
+    position: absolute;
+    width: 573px;
+    left: 97px;
+    top: 560px;
+    text-align: justify;
+  }
+  .rectangle2 {
+    position: absolute;
+    width: 573px;
+    left: 97px;
+    top: 745px;
+  }
+  .down-text {
+    position: absolute;
+    align-items: center;
+    width: 573px;
+    height: 90px;
+    left: 200px;
+    top: 730px;
+  }
+  #desPageButton {
+    width: 41px;
+    height: 3px;
+    transform: translate(-20px, -295px);
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section3 {
+    background: none;
+  }
+  .section3 {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+    background: url(../crew/background-crew-tablet.jpg);
+    overflow: hidden;
+  }
+  /* .navbar {
+    width: 450px;
+    height: 96px;
+  }
+  .logoImg {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: -20px;
+    top: 24px;
+  }
+  section {
+    background: none;
+  }
+  #navbarNav {
+    position: absolute;
+    width: 510px;
+    height: 96px;
+    left: 200px;
+    top: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+  }
+  #navbarNav ul {
+    padding-left: 10px;
+  }
+  li {
+    padding: 10px;
+  } */
+  .section3 .slider-div {
+    height: 920px;
+  }
+
+  .section3 .slider-tittle {
+    position: absolute;
+    width: 458px;
+    height: 200px;
+    left: 140px;
+    top: 100px;
+  }
+
+  .section3 .slider-tittle h3 {
+    font-size: 20px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .section3 .slider-tittle h2 {
+    width: 457px;
+    height: 46px;
+    font-size: 25px;
+    position: absolute;
+    left: 0.11%;
+    right: 0.11%;
+    top: calc(50% - 46px / 2 - 75px);
+  }
+
+  .section3 .slider-tittle p {
+    width: 458px;
+    height: 84px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 84px / 2 + -15px);
+  }
+  .section3 .slider-img {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 230px;
+    left: -100px;
+  }
+  .section3 .crewImg {
+    width: 456.37px;
+    height: 572px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section4 {
+    background: none;
+  }
+  .section4 {
+    position: relative;
+    width: 768px;
+    height: 1024px;
+    background: url(../destination/background-destination-tablet.jpg);
+    overflow: hidden;
+  }
+  .tech-tittle{
+    margin: 0;
+  }
+  .tech-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-img  {
+    position: absolute;
+    width: 768px;
+    height: 310px;
+    left: 0px;
+    top: 220px;
+  }
+}
