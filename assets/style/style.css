@@ -606,6 +606,12 @@ li {
     width: 375px;
     height: 850px;
   }
+  .section2 .slider-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .section2 .slider-img img {
     position: absolute;
     width: 170px;
@@ -633,5 +639,38 @@ li {
     line-height: 25px;
     text-align: center;
     color: #d0d6f9;
+  }
+
+  .rectangle2 {
+    position: absolute;
+    width: 327px;
+    height: 1px;
+    left: 24px;
+    top: 650px;
+
+    background: #383b4b;
+  }
+  .section2 .down-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 216px;
+    height: 61px;
+    left: 68px;
+    top: 645px;
+  }
+  .section2 .down-text .upper-span {
+    position: absolute;
+    width: 216px;
+    height: 61px;
+    left: 70px;
+    /* top: 613px; */
+  }
+  .section2 .down-text .p-style {
+    position: absolute;
+    width: 216px;
+    height: 61px;
+    left: 31px;
+    top: 80px;
   }
 }
